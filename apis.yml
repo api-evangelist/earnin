@@ -1,8 +1,28 @@
 aid: earnin
 name: Earnin
-description: Earnin is a company surfaced as a portfolio company of a16z, felicis, matrix-partners, ribbit-capital,
-  trinity-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a
-  lead awaiting the enrichment pipeline.
+description: >-
+  Earnin (formerly Activehours) is a consumer financial technology company offering earned
+  wage access (EWA) that lets workers tap the pay they have already earned before their
+  scheduled payday. Its mobile app products include Cash Out (access earned wages up to
+  $150/day and $1,000/pay period with no mandatory fees), Live Pay and the EarnIn Card,
+  Early Pay, Balance Shield overdraft protection, credit monitoring, FDIC-insured Savings
+  Jars, and an EarnIn Payroll offering for businesses. Earnin is a consumer app rather than
+  an API platform; it publishes no public developer portal or API, but does operate a
+  vulnerability-disclosure program (security.txt via Inspectiv) and a trust center. It was
+  surfaced as a portfolio company of a16z, Felicis, Matrix Partners, Ribbit Capital, and
+  Trinity Ventures and profiled in the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.earnin.com/assets/img/share.png
 url: https://raw.githubusercontent.com/api-evangelist/earnin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Earned Wage Access
+- Consumer Finance
+- Payments
+- Banking
+- Mobile App
+- Payroll
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +55,30 @@ maintainers:
 common:
 - type: Website
   url: https://earnin.com
+- type: Blog
+  url: https://earnin.com/blog
+- type: Support
+  url: https://help.earnin.com/hc/en-us
+- type: SignUp
+  url: https://app2.earnin.com/questionnaire
+- type: TermsOfService
+  url: https://earnin.com/privacyandterms
+- type: PrivacyPolicy
+  url: https://earnin.com/privacy
+- type: TrustCenter
+  url: https://trust.earnin.com
+- type: Security
+  url: https://earnin.com/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/earnin-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/earnin-domain-security.yml
+- type: WellKnown
+  url: well-known/earnin-well-known.yml
+- type: SecurityTxt
+  url: well-known/earnin-security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
