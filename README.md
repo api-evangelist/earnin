@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Earnin is a company surfaced as a portfolio company of a16z, felicis, matrix-partners, ribbit-capital, trinity-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Earnin (formerly Activehours) is a consumer financial technology company offering earned wage access (EWA) that lets workers tap the pay they have already earned before their scheduled payday. Its mobile app products include Cash Out (access earned wages up to $150/day and $1,000/pay period with no mandatory fees), Live Pay and the EarnIn Card, Early Pay, Balance Shield overdraft protection, credit monitoring, FDIC-insured Savings Jars, and an EarnIn Payroll offering for businesses. Earnin is a consumer app rather than an API platform; it publishes no public developer portal or API, but does operate a vulnerability-disclosure program (security.txt via Inspectiv) and a trust center. It was surfaced as a portfolio company of a16z, Felicis, Matrix Partners, Ribbit Capital, and Trinity Ventures and profiled in the API Evangelist network.
 
-Backed by: a16z, felicis, matrix-partners, ribbit-capital, trinity-ventures — https://earnin.com
+**Areas:** Company · Fintech · Earned Wage Access · Consumer Finance · Payments · Banking · Mobile App · Payroll
+
+## Earnin on APIs.io
+
+Everything profiled for Earnin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/earnin/](https://apis.io/providers/earnin/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Earnin Domain Security](https://apis.io/security/earnin/earnin-domain-security/)
+- [Earnin Vulnerability Disclosure](https://apis.io/security/earnin/earnin-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://earnin.com)
+- [Sign up](https://app2.earnin.com/questionnaire)
+- [Support](https://help.earnin.com/hc/en-us)
+- [Blog](https://earnin.com/blog)
+- [Security](https://earnin.com/.well-known/security.txt)
+- [Trust centre](https://trust.earnin.com)
+- [Terms of service](https://earnin.com/privacyandterms)
+- [Privacy policy](https://earnin.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 12.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/earnin/](https://apis.io/providers/earnin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Earnin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/earnin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
